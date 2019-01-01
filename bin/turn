@@ -7,3 +7,4 @@ puts "Hi, Welcome to Tic Tac Toe"
 display_board(board)
 user_input = gets.strip
 converted_input = input_to_index(user_input)
+puts converted_input
