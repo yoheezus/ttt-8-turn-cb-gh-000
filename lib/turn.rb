@@ -15,6 +15,8 @@ def valid_turn?(board, index)
         false
     elsif position_taken?(board, index) == false
         true
+    elsif board_taken[index] == nil
+        false
     else false
     end
 end
