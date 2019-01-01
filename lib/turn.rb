@@ -28,6 +28,7 @@ def position_taken?(board, index)
         false
     else
         true
+    end
 end
 
 def display_board(board)
