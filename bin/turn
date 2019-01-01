@@ -4,6 +4,4 @@ require_relative "../lib/turn.rb"
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 puts "Hi, Welcome to Tic Tac Toe"
-display_board(board)
-converted_input = input_to_index()
-
+turn
