@@ -22,10 +22,10 @@ def valid_move?(board, index)
         true
     elsif position_taken?(board, index) == true
         false
-    elsif index.between?(1, 9) == false
+    elsif !(index.between?(1, 9))
         nil
     else
-        nil
+        false
     end
 end
 
