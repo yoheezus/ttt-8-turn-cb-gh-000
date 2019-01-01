@@ -7,7 +7,8 @@ def turn(board)
     if valid_move?(board, converted_input) == true
         move(board, converted_input)
     else
-        puts "test"
+        puts "not a va"
+        new_input = gets.strip()
     end
     display_board(board)
 end
