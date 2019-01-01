@@ -11,6 +11,12 @@ def input_to_index(user_input)
 end
 
 def valid_turn?(board, index)
+    if position_taken?(board, index) == true
+        false
+    elsif position_taken?(board, index) == false
+        true
+    else false
+    end
 end
 
 def position_taken?(board, index)
