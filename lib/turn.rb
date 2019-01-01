@@ -12,7 +12,7 @@ def input_to_index(user_input)
     converted_input = user_input.to_i - 1
 end
 
-def valid_turn?(board, index)
+def valid_move?(board, index)
     if position_taken?(board, index) == true
         false
     elsif position_taken?(board, index) == false
@@ -42,9 +42,9 @@ def display_board(board)
 end
 
 def move(board, index, token = "X")
-    if valid_turn?(board, index) == true
+    if valid_move?(board, index) == true
         board[index] = token
-    elsif valid_turn?(board, index) == false
+    elsif valid_move?(board, index) == false
         puts "not valid move"
     end
 end
