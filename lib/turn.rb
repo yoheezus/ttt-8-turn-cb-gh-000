@@ -18,11 +18,11 @@ def input_to_index(user_input)
 end
 
 def valid_move?(board, index)
-    if index.between?(1, 9) && position_taken?(board, index) == false
+    if index.between?(0, 9) && position_taken?(board, index) == false
         true
-    elsif index.between?(1, 9) && position_taken?(board, index) == true
+    elsif index.between?(0, 9) && position_taken?(board, index) == true
         false
-    elsif !(index.between?(1, 9))
+    elsif !(index.between?(0, 9))
         nil
     else
         false
