@@ -27,5 +27,7 @@ end
 def move(board, index, token = "X")
     if valid_move? == true
         board[index] = token
+    else
+        puts "not valid move"
     end
 end
