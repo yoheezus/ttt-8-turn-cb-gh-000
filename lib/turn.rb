@@ -1,4 +1,5 @@
 def turn(board)
+    display_board(board)
 end
 
 def valid_turn?(board, index)
