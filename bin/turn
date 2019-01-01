@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 require_relative "../lib/turn.rb"
 
-test = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
 puts "Hi, Welcome to Tic Tac Toe"
-display_board(test)
+display_board(board)
