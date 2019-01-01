@@ -4,7 +4,7 @@ def turn(board)
 
     user_input = gets.strip
     converted_input = input_to_index(user_input)
-    move(board, input)
+    move(board, converted_input)
 end
 
 def input_to_index(user_input)
