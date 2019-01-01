@@ -41,7 +41,7 @@ def display_board(board)
 end
 
 def move(board, index, token = "X")
-    if valid_move? == true
+    if valid_turn? == true
         board[index] = token
     elsif valid_move == false
         puts "not valid move"
