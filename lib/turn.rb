@@ -1,4 +1,4 @@
-def turn
+def turn(board)
 end
 
 def valid_turn?(board, index)
