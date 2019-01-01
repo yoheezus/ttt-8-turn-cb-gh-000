@@ -1,7 +1,7 @@
 def turn(board)
     display_board(board)
     puts "Type 1-9 to make a move."
-    user_input = gets.strip
+    user_input = input_to_index(gets.strip)
 end
 
 def input_to_index(user_input)
