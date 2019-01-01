@@ -20,7 +20,7 @@ end
 def valid_move?(board, index)
     if index.between?(1, 9) && (position_taken?(board, index) == false
         true
-    if position_taken?(board, index) == true
+    elsif position_taken?(board, index) == true
         false
     elsif index.between?(1, 9) == false
         nil
