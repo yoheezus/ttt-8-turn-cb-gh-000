@@ -22,6 +22,12 @@ def valid_turn?(board, index)
 end
 
 def position_taken?(board, index)
+    if board[index] == " " || board[index] == " "
+        false
+    elsif board[index] == nil
+        false
+    else
+        true
 end
 
 def display_board(board)
