@@ -25,6 +25,7 @@ def display_board(board)
 end
 
 def move(board, index, token = "X")
-    if valid_move?
-    board[index] = token
+    if valid_move? == true
+        board[index] = token
+    end
 end
