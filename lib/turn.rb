@@ -5,6 +5,7 @@ def turn(board)
     user_input = gets.strip
     converted_input = input_to_index(user_input)
     move(board, converted_input)
+    display_board(board)
 end
 
 def input_to_index(user_input)
